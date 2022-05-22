@@ -1,0 +1,55 @@
+* {
+    background-color: black;
+    color: white;
+}
+/* Main appp */
+.App {
+  text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* books */
+.titles > p {
+    width: 100px;
+    height: 100px;
+}
+.titles {
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.allBooks {
+
+}
+
+.book {
+    background: blue;
+    border: 3px solid grey;
+}
+
+.selection {
+    background: darkgreen;
+    border: 2px solid yellow;
+}
+
+
+/* aplhabet */
+.alpha {
+
+}
+.test-box {
+
+}
+
+
+/* numbers */
